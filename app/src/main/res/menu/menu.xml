@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/delete"
+        android:title="delete"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item2"
+        android:enabled="true"
+        android:icon="@drawable/setting"
+        android:title="setting"
+        android:visible="true"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/music"
+        android:title="music"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/item4"
+        android:icon="@drawable/music"
+        android:title="music"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item5"
+        android:icon="@drawable/music"
+        android:title="music"
+        app:showAsAction="withText"/>
+</menu>
